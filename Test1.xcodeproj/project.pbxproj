@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55BCFBEC1A80CB05003AEBC6 /* monster-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFBE31A80CB05003AEBC6 /* monster-hd.png */; };
+		55BCFBED1A80CB05003AEBC6 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFBE41A80CB05003AEBC6 /* monster.png */; };
+		55BCFBEE1A80CB05003AEBC6 /* player-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFBE51A80CB05003AEBC6 /* player-hd.png */; };
+		55BCFBEF1A80CB05003AEBC6 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFBE61A80CB05003AEBC6 /* player.png */; };
+		55BCFBF01A80CB05003AEBC6 /* projectile-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFBE71A80CB05003AEBC6 /* projectile-hd.png */; };
+		55BCFBF11A80CB05003AEBC6 /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFBE81A80CB05003AEBC6 /* projectile.png */; };
+		55BCFBF21A80CB05003AEBC6 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFBEA1A80CB05003AEBC6 /* background-music-aac.caf */; };
+		55BCFBF31A80CB05003AEBC6 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFBEB1A80CB05003AEBC6 /* pew-pew-lei.caf */; };
 		5B121030197484FA004C1E1D /* TestActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12102F197484FA004C1E1D /* TestActivity.m */; };
 		5B121038197487F2004C1E1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B737893E1807617C0076A88C /* AppDelegate.m */; };
 		7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
@@ -140,6 +148,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55BCFBE31A80CB05003AEBC6 /* monster-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster-hd.png"; sourceTree = "<group>"; };
+		55BCFBE41A80CB05003AEBC6 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		55BCFBE51A80CB05003AEBC6 /* player-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-hd.png"; sourceTree = "<group>"; };
+		55BCFBE61A80CB05003AEBC6 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		55BCFBE71A80CB05003AEBC6 /* projectile-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile-hd.png"; sourceTree = "<group>"; };
+		55BCFBE81A80CB05003AEBC6 /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
+		55BCFBEA1A80CB05003AEBC6 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		55BCFBEB1A80CB05003AEBC6 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		5B12100919748273004C1E1D /* libEGL.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libEGL.so; path = /usr/lib/armv7a/libEGL.so; sourceTree = SDKROOT; };
 		5B12100F197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		5B121011197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
@@ -264,6 +280,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55BCFBE11A80CB05003AEBC6 /* ResourcePack */ = {
+			isa = PBXGroup;
+			children = (
+				55BCFBE21A80CB05003AEBC6 /* Art */,
+				55BCFBE91A80CB05003AEBC6 /* Sounds */,
+			);
+			path = ResourcePack;
+			sourceTree = "<group>";
+		};
+		55BCFBE21A80CB05003AEBC6 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				55BCFBE31A80CB05003AEBC6 /* monster-hd.png */,
+				55BCFBE41A80CB05003AEBC6 /* monster.png */,
+				55BCFBE51A80CB05003AEBC6 /* player-hd.png */,
+				55BCFBE61A80CB05003AEBC6 /* player.png */,
+				55BCFBE71A80CB05003AEBC6 /* projectile-hd.png */,
+				55BCFBE81A80CB05003AEBC6 /* projectile.png */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		55BCFBE91A80CB05003AEBC6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				55BCFBEA1A80CB05003AEBC6 /* background-music-aac.caf */,
+				55BCFBEB1A80CB05003AEBC6 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		5B12100D197483EE004C1E1D /* res */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +421,7 @@
 		7A40366219DDF8CB007B6E8F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				55BCFBE11A80CB05003AEBC6 /* ResourcePack */,
 				5B121034197485FE004C1E1D /* Info.plist */,
 			);
 			name = iOS;
@@ -719,17 +767,25 @@
 			files = (
 				B71F5919188484E7003F4D28 /* Settings.png in Resources */,
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
+				55BCFBF11A80CB05003AEBC6 /* projectile.png in Resources */,
+				55BCFBEF1A80CB05003AEBC6 /* player.png in Resources */,
 				B71F5914188484E7003F4D28 /* iPad@2x.png in Resources */,
 				B71F5913188484E7003F4D28 /* iPad.png in Resources */,
 				B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */,
 				B71F5916188484E7003F4D28 /* iPhone-old@2x.png in Resources */,
+				55BCFBF21A80CB05003AEBC6 /* background-music-aac.caf in Resources */,
+				55BCFBEE1A80CB05003AEBC6 /* player-hd.png in Resources */,
+				55BCFBED1A80CB05003AEBC6 /* monster.png in Resources */,
 				B71F591A188484E7003F4D28 /* Settings@2x.png in Resources */,
 				B7378976180762440076A88C /* Default-Landscape~ipad.png in Resources */,
 				B71F5915188484E7003F4D28 /* iPhone-old.png in Resources */,
+				55BCFBEC1A80CB05003AEBC6 /* monster-hd.png in Resources */,
+				55BCFBF31A80CB05003AEBC6 /* pew-pew-lei.caf in Resources */,
 				B71F5917188484E7003F4D28 /* iPhone.png in Resources */,
 				B7378975180762440076A88C /* Default-568h@2x.png in Resources */,
 				B71F5918188484E7003F4D28 /* iPhone@2x.png in Resources */,
 				B7378977180762440076A88C /* Default.png in Resources */,
+				55BCFBF01A80CB05003AEBC6 /* projectile-hd.png in Resources */,
 				B71F5911188484E7003F4D28 /* iPad-old.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
