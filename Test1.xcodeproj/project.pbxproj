@@ -15,6 +15,7 @@
 		55BCFBF11A80CB05003AEBC6 /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFBE81A80CB05003AEBC6 /* projectile.png */; };
 		55BCFBF21A80CB05003AEBC6 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFBEA1A80CB05003AEBC6 /* background-music-aac.caf */; };
 		55BCFBF31A80CB05003AEBC6 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55BCFBEB1A80CB05003AEBC6 /* pew-pew-lei.caf */; };
+		55BCFBF71A80D333003AEBC6 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BCFBF61A80D333003AEBC6 /* IntroScene.m */; };
 		5B121030197484FA004C1E1D /* TestActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12102F197484FA004C1E1D /* TestActivity.m */; };
 		5B121038197487F2004C1E1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B737893E1807617C0076A88C /* AppDelegate.m */; };
 		7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
@@ -156,6 +157,8 @@
 		55BCFBE81A80CB05003AEBC6 /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
 		55BCFBEA1A80CB05003AEBC6 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		55BCFBEB1A80CB05003AEBC6 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		55BCFBF51A80D333003AEBC6 /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
+		55BCFBF61A80D333003AEBC6 /* IntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroScene.m; sourceTree = "<group>"; };
 		5B12100919748273004C1E1D /* libEGL.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libEGL.so; path = /usr/lib/armv7a/libEGL.so; sourceTree = SDKROOT; };
 		5B12100F197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		5B121011197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
@@ -469,6 +472,8 @@
 			children = (
 				84201FFE1A7E35A8007030A1 /* MyFirstScene.h */,
 				84201FFF1A7E35A8007030A1 /* MyFirstScene.m */,
+				55BCFBF51A80D333003AEBC6 /* IntroScene.h */,
+				55BCFBF61A80D333003AEBC6 /* IntroScene.m */,
 			);
 			name = Scene;
 			path = Source/Platforms/iOS/Scene;
@@ -865,6 +870,7 @@
 				842020001A7E35A8007030A1 /* MyFirstScene.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
+				55BCFBF71A80D333003AEBC6 /* IntroScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
